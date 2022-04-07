@@ -1,5 +1,6 @@
 #include <iostream>
 #include <conio.h>
+#include <string.h>
 
 #define max 20
 
