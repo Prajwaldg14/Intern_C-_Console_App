@@ -1,5 +1,6 @@
 #include <iostream>
 #include <conio.h>
+#include <string.h>
 
 #define max 20
 
@@ -10,18 +11,18 @@ class base
 public:
 	int emp_id;
 	char name[20];
-	int
+	int age;
+	int dep_code;
+	char dep_name[20];
+};
+
 class department : public base
 {
 public:
 	void add_dept();
 	void show_dept();
 	void edit_dept();
-	voi age;
-	int dep_code;
-	char dep_name[20];
-};
-d delete_dept();
+	void delete_dept();
 };
 
 
